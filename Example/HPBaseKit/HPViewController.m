@@ -7,7 +7,7 @@
 //
 
 #import "HPViewController.h"
-
+#import "HPTextCtl.h"
 @interface HPViewController ()
 
 @end
@@ -24,6 +24,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    UIViewController *vc = [[HPTextCtl alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 @end

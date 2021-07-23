@@ -1,0 +1,6 @@
+framework module HPBaseKit {
+  umbrella header "HPBaseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
