@@ -44,6 +44,7 @@
     _viewWillFirstAppeared = YES;
     _viewDidFirstAppeared = YES;
     _interactivePopGestureRecognizerEnabled = YES;
+    _popGestureEnabled = YES;
 }
 
 #pragma mark - ViewLifeCycle
