@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/phq8219@qq.com/HPBaseKit'
+  s.homepage         = 'https://github.com/JohnyChina/HPBaseKit/tree/master'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'phq8219@qq.com' => 'phq8219@qq.com' }
-  s.source           = { :git => 'https://github.com/phq8219@qq.com/HPBaseKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JohnyChina/HPBaseKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
