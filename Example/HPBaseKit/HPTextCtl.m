@@ -14,6 +14,15 @@
 
 @implementation HPTextCtl
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.hiddenStatusBar = YES;
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.

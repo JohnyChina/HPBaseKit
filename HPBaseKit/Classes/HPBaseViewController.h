@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface HPBaseViewController : UIViewController
 
 #pragma mark -ViewLifeCycle
@@ -15,6 +16,7 @@
 @property (nonatomic, assign, readonly) BOOL viewDidFirstAppeared;
 - (void)viewWillFirstAppear;    // ViewController首次将要呈现。抽象方法，子类可以重载
 - (void)viewDidFirstAppear;     // ViewController首次已呈现。抽象方法，子类可以重载
+/// 以下配置应在初始化-init()方法体中完成配置
 #pragma mark -Status Bar
 @property (nonatomic) BOOL hiddenStatusBar;                 // 状态栏是否隐藏，默认NO
 @property (nonatomic) UIStatusBarStyle statusBarStyle;      // 状态栏类型,默认UIStatusBarStyleDefault
